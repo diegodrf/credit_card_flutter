@@ -14,7 +14,7 @@ class BankLogo extends StatelessWidget {
           color: kDefaultColor,
           size: fontSize,
         ),
-        Text('PagBank', style: kDefaultTextStyle.copyWith(fontSize: fontSize))
+        Text('MyBank', style: kDefaultTextStyle.copyWith(fontSize: fontSize))
       ],
     );
   }
