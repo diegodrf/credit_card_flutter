@@ -2,7 +2,7 @@
 
 It's a project based on [Youtube video](https://www.youtube.com/watch?v=o-f1b33H1og) produced by [Bwolf](https://bwolfs2.github.io/).
 
-## Widger
+## Widget
 ![](repo_media/credit_card_example.JPG)
 
 ## Real Credit Card
