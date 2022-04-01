@@ -22,9 +22,9 @@ class CardNumber extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       formatCardNumber(),
-      style: kDefaultTextStyle.copyWith(
-        fontSize: 20.0,
-        letterSpacing: 5.0,
+      style: GoogleFonts.orbitron(
+        textStyle:
+            kDefaultTextStyle.copyWith(fontSize: 16.0, letterSpacing: 4.0),
       ),
     );
   }

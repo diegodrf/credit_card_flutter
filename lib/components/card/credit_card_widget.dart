@@ -49,7 +49,7 @@ class CreditCard extends StatelessWidget {
                               ContactlessIcon(),
                             ],
                           ),
-                          const SizedBox(height: 8.0),
+                          const SizedBox(height: 24.0),
                           CardNumber(
                             cardNumber: provider.creditCard.number,
                           ),
