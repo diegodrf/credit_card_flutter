@@ -1,5 +1,6 @@
 import 'package:credit_card/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class CardNumber extends StatelessWidget {
   final String cardNumber;
@@ -21,7 +22,10 @@ class CardNumber extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       formatCardNumber(),
-      style: kDefaultTextStyle.copyWith(fontSize: 20.0, letterSpacing: 5.0),
+      style: kDefaultTextStyle.copyWith(
+        fontSize: 20.0,
+        letterSpacing: 5.0,
+      ),
     );
   }
 }

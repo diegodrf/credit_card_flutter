@@ -1,4 +1,5 @@
 import 'package:credit_card/components/card/credit_card_widget.dart';
+import 'package:credit_card/components/credit_card_form.dart';
 import 'package:flutter/material.dart';
 
 class CreditCardScreen extends StatelessWidget {
@@ -9,12 +10,16 @@ class CreditCardScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Padding(
-          padding: EdgeInsets.all(8.0),
-          child: Column(
-            children: [
-              CreditCard(),
-            ],
+        body: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              children: const [
+                CreditCard(),
+                SizedBox(height: 24.0),
+                CreditCardForm(),
+              ],
+            ),
           ),
         ),
       ),

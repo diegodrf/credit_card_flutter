@@ -14,9 +14,9 @@ class ValidityDate extends StatelessWidget {
   String formatYear() {
     if (year > 99) {
       final yearAsString = year.toString();
-      return yearAsString.substring(yearAsString.length - 2);
+      return yearAsString.substring(yearAsString.length - 2).padLeft(2, '0');
     }
-    return year.toString();
+    return year.toString().padLeft(2, '0');
   }
 
   @override
