@@ -10,6 +10,20 @@ class CardChip extends StatelessWidget {
       width: 40,
       decoration: BoxDecoration(
         color: Colors.white70,
+        gradient: LinearGradient(colors: [
+          Colors.grey.shade100,
+          Colors.grey.shade400,
+          Colors.grey.shade100,
+          Colors.grey.shade400,
+          Colors.grey.shade100,
+          Colors.grey.shade400,
+          Colors.grey.shade100,
+          Colors.grey.shade400,
+          Colors.grey.shade100,
+          Colors.grey.shade400,
+          Colors.grey.shade100,
+          Colors.grey.shade400,
+        ], begin: Alignment.topLeft, end: Alignment.bottomRight),
         borderRadius: BorderRadius.circular(4.0),
       ),
       child: const Icon(
