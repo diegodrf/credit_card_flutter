@@ -1,6 +1,5 @@
+import 'package:credit_card/constants.dart';
 import 'package:flutter/material.dart';
-
-import '../constants.dart';
 
 class ClientName extends StatelessWidget {
   final String name;
