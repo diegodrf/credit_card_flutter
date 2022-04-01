@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 class CardBase extends StatelessWidget {
@@ -10,8 +12,20 @@ class CardBase extends StatelessWidget {
       aspectRatio: 16.0 / 9.0,
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.black87,
+          gradient: const LinearGradient(
+            colors: [
+              Colors.purple,
+              Colors.red,
+            ],
+          ),
           borderRadius: BorderRadius.circular(16.0),
+          boxShadow: const [
+            BoxShadow(
+              color: Colors.black87,
+              offset: Offset(16.0, 16.0),
+              blurRadius: 16.0,
+            ),
+          ],
         ),
         child: cardContent,
       ),
